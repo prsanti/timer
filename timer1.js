@@ -9,7 +9,7 @@ const filteredArgs = args.filter(num => {
   }
 });
 
-const playBeep = (filteredArgs) => {
+const playBeeps = (filteredArgs) => {
   for (const num of filteredArgs) {
     let timer = Number(num) * 1000;
 
@@ -21,4 +21,4 @@ const playBeep = (filteredArgs) => {
 
 };
 
-playBeep(filteredArgs);
+playBeeps(filteredArgs);
